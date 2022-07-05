@@ -1,0 +1,195 @@
+body{
+width: 100vw;
+height: 100vh;
+display: flex;
+margin: 0; 
+
+
+
+
+}
+
+
+.head{
+flex: 1;
+/* background-color:rebeccapurple; */
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: flex-end;
+background-image: url(https://i.pinimg.com/originals/bb/23/ba/bb23ba37dc309d91c598e56a8b154146.jpg);
+background-size: 100% 100%;
+box-shadow: 2px 2px 10px 2px;
+}
+.card-1{
+    flex: 0.3;
+background-color: white;
+width: 15%;
+text-align: center;
+color: greenyellow;
+margin-right: 8%;
+border-radius: 30%;
+background-size: 100% 100%;
+animation: shayan 9s infinite linear
+}
+@keyframes shayan {
+    100%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+    50%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+    20%{background-image: url(https://kfoods.com/photos/images_photos/photos/05594914_202171674355.jpg);}
+    0%{background-image: url(https://kfoods.com/photos/images_photos/photos/05594914_202171674355.jpg);}
+}
+
+
+
+.card-2{
+    flex: 0.3;
+    background-color: white;
+    width: 15%;
+    text-align: center;
+    color: greenyellow;
+    margin-right: 8%;
+    border-radius: 30%;
+    background-size: 100% 100%;
+animation: basit 9s infinite linear
+}
+
+@keyframes basit {
+    100%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+    50%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+    20%{background-image: url(https://kfoods.com/photos/images_photos/photos/05594914_202171674355.jpg);}
+    0%{background-image: url(https://kfoods.com/photos/images_photos/photos/05594914_202171674355.jpg);}
+}
+
+
+.card-3{
+
+    flex: 0.3;
+background-color: white;
+width: 15%;
+text-align: center;
+color: greenyellow;
+margin-right: 8%;
+border-radius: 30%;
+background-size: 100% 100%;
+animation: ibad 9s infinite linear
+}
+@keyframes ibad {
+    100%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+    50%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+    20%{background-image: url(https://kfoods.com/photos/images_photos/photos/05594914_202171674355.jpg);}
+    0%{background-image: url(https://kfoods.com/photos/images_photos/photos/05594914_202171674355.jpg);}
+}
+
+
+
+ @media  (max-width: 720px) {
+.card-1{
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    color: red;
+    
+    
+}   
+.card-2{
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    color: red;
+}   
+.card-3{
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    color: red;
+}   
+
+.head{
+   background-size: 100% 100%;
+   display: flex;
+   display: block;
+   
+   
+}
+} 
+
+
+ @media  (max-width: 720px) {
+.card-1{
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    color: red;
+    
+    
+}   
+.card-2{
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    color: red;
+}   
+.card-3{
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    color: red;
+}   
+
+.head{
+   background-size: 100% 100%;
+   display: flex;
+   display: block;
+   
+   
+}
+} 
+
+
+
+@media  (max-width: 420px) {
+    .card-1{
+        width: 45%;
+        
+        margin-bottom: 5%;
+        color:yellow;
+        
+        
+        
+    }   
+    .card-2{
+        width: 45%;
+        margin-left: 54%;
+        margin-top: -30%;
+        margin-bottom: 5%;
+        color: yellow;
+    }   
+    .card-3{
+        width: 45%;
+        margin-top: 5%;
+        margin-left: 30%;
+        color: yellow;
+        background-size: 100% 100%;
+        animation: ibad 10s infinite linear
+    }   
+    @keyframes ibad {
+        25%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_1S6CK6UCM5kmso6UO1bIO2xv9EHUD4CCYg&usqp=CAU);}
+        50%{background-image: url(https://www.thenews.com.pk/assets/uploads/updates/2021-07-10/862284_7538915_Eid-Adha_updates.jpg);}
+        70%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+
+    }
+    
+    .head{
+       background-size: 100% 100%;
+       display: flex;
+       display: block;
+      
+    }
+    
+    } 
+    
+    
+
+
+
+
